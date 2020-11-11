@@ -1,0 +1,12 @@
+C:\Code\Blazor\Stitch\Shared\bin\Debug\net5.0\Stitch.Shared.deps.json
+C:\Code\Blazor\Stitch\Shared\bin\Debug\net5.0\Stitch.Shared.dll
+C:\Code\Blazor\Stitch\Shared\bin\Debug\net5.0\ref\Stitch.Shared.dll
+C:\Code\Blazor\Stitch\Shared\bin\Debug\net5.0\Stitch.Shared.pdb
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\Stitch.Shared.csprojAssemblyReference.cache
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\Stitch.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\Stitch.Shared.AssemblyInfoInputs.cache
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\Stitch.Shared.AssemblyInfo.cs
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\Stitch.Shared.csproj.CoreCompileInputs.cache
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\Stitch.Shared.dll
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\ref\Stitch.Shared.dll
+C:\Code\Blazor\Stitch\Shared\obj\Debug\net5.0\Stitch.Shared.pdb
