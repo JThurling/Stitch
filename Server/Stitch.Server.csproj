@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Client\Stitch.Client.csproj" />
-    <ProjectReference Include="..\Infrastucture\Infrastucture.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
     <ProjectReference Include="..\Shared\Stitch.Shared.csproj" />
   </ItemGroup>
 

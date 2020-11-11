@@ -2719,6 +2719,9 @@
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/Core.dll": {}
         },
@@ -2726,17 +2729,21 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "Infrastucture/1.0.0": {
+      "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Core": "1.0.0"
+          "Core": "1.0.0",
+          "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "5.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/Infrastucture.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infrastucture.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         }
       },
       "Stitch.Client/1.0.0": {
@@ -8806,10 +8813,10 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
-    "Infrastucture/1.0.0": {
+    "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Infrastucture/Infrastucture.csproj",
-      "msbuildProject": "../Infrastucture/Infrastucture.csproj"
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     },
     "Stitch.Client/1.0.0": {
       "type": "project",
@@ -8824,7 +8831,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Infrastucture >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.ApiAuthorization.IdentityServer >= 5.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.0",
@@ -8873,8 +8880,8 @@
             "C:\\Code\\Blazor\\Stitch\\Client\\Stitch.Client.csproj": {
               "projectPath": "C:\\Code\\Blazor\\Stitch\\Client\\Stitch.Client.csproj"
             },
-            "C:\\Code\\Blazor\\Stitch\\Infrastucture\\Infrastucture.csproj": {
-              "projectPath": "C:\\Code\\Blazor\\Stitch\\Infrastucture\\Infrastucture.csproj"
+            "C:\\Code\\Blazor\\Stitch\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Code\\Blazor\\Stitch\\Infrastructure\\Infrastructure.csproj"
             },
             "C:\\Code\\Blazor\\Stitch\\Shared\\Stitch.Shared.csproj": {
               "projectPath": "C:\\Code\\Blazor\\Stitch\\Shared\\Stitch.Shared.csproj"

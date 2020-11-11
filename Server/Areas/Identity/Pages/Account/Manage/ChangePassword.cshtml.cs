@@ -1,10 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
+using Core.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using Stitch.Server.Models;
+
 namespace Stitch.Server.Areas.Identity.Pages.Account.Manage
 {
     public class ChangePasswordModel : PageModel

@@ -33,15 +33,8 @@ using Stitch.Server.Areas.Identity.Pages;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 5 "C:\Code\Blazor\Stitch\Server\Areas\Identity\Pages\_ViewImports.cshtml"
-using Stitch.Server.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"49164482e4e310a0e7d9eaf4f04696b621019fe0", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"103531214272e3e0add6cfcec0d3d34e1120dd3e", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1eaa1f7474e542924ae591082c8d45700b88fc7a", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

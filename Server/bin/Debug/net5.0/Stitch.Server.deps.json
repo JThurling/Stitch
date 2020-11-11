@@ -25,7 +25,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Stitch.Server/1.0.0": {
         "dependencies": {
-          "Infrastucture": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "5.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "5.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.0",
@@ -2349,6 +2349,9 @@
         }
       },
       "Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0"
+        },
         "runtime": {
           "Core.dll": {}
         },
@@ -2356,15 +2359,19 @@
           "Core.dll": {}
         }
       },
-      "Infrastucture/1.0.0": {
+      "Infrastructure/1.0.0": {
         "dependencies": {
-          "Core": "1.0.0"
+          "Core": "1.0.0",
+          "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "5.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
         },
         "runtime": {
-          "Infrastucture.dll": {}
+          "Infrastructure.dll": {}
         },
         "compile": {
-          "Infrastucture.dll": {}
+          "Infrastructure.dll": {}
         }
       },
       "Stitch.Client/1.0.0": {
@@ -5312,7 +5319,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Infrastucture/1.0.0": {
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

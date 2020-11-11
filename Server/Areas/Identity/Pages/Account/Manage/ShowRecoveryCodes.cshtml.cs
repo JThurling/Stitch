@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using Stitch.Server.Models;
 
 namespace Stitch.Server.Areas.Identity.Pages.Account.Manage
 {

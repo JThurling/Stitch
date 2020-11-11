@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "16aq0GxCdlES3YtWe7DjCKHV99NRcrx8VAzRRZqTDyoPfhLhbSfh32ImVDDVOppapQuu7KhWZfA86LwEywD+eQ==",
+  "dgSpecHash": "Gef7hwVUGUYa/PPzrLAA8pMZb6Xr5w2+mxUpPIgQ5sUIDK/8cVF805+jlSJEgwiKXqk38k3JWPP4DzMwUMMqzA==",
   "success": true,
   "projectFilePath": "C:\\Code\\Blazor\\Stitch\\Server\\Stitch.Server.csproj",
   "expectedPackageFiles": [

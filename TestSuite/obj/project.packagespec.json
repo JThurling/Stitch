@@ -1,0 +1,88 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Code\\Blazor\\Stitch\\TestSuite\\TestSuite.csproj",
+    "projectName": "TestSuite",
+    "projectPath": "C:\\Code\\Blazor\\Stitch\\TestSuite\\TestSuite.csproj",
+    "outputPath": "C:\\Code\\Blazor\\Stitch\\TestSuite\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ],
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {
+          "C:\\Code\\Blazor\\Stitch\\Client\\Stitch.Client.csproj": {
+            "projectPath": "C:\\Code\\Blazor\\Stitch\\Client\\Stitch.Client.csproj"
+          },
+          "C:\\Code\\Blazor\\Stitch\\Core\\Core.csproj": {
+            "projectPath": "C:\\Code\\Blazor\\Stitch\\Core\\Core.csproj"
+          },
+          "C:\\Code\\Blazor\\Stitch\\Infrastructure\\Infrastructure.csproj": {
+            "projectPath": "C:\\Code\\Blazor\\Stitch\\Infrastructure\\Infrastructure.csproj"
+          },
+          "C:\\Code\\Blazor\\Stitch\\Server\\Stitch.Server.csproj": {
+            "projectPath": "C:\\Code\\Blazor\\Stitch\\Server\\Stitch.Server.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.7.1, )"
+        },
+        "coverlet.collector": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[1.3.0, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.4.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
