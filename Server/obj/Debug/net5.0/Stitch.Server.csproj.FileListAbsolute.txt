@@ -240,3 +240,6 @@ C:\Code\Blazor\Stitch\Server\obj\Debug\net5.0\Stitch.Server.dll
 C:\Code\Blazor\Stitch\Server\obj\Debug\net5.0\ref\Stitch.Server.dll
 C:\Code\Blazor\Stitch\Server\obj\Debug\net5.0\Stitch.Server.pdb
 C:\Code\Blazor\Stitch\Server\obj\Debug\net5.0\Stitch.Server.genruntimeconfig.cache
+C:\Code\Blazor\Stitch\Server\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Code\Blazor\Stitch\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Code\Blazor\Stitch\Server\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

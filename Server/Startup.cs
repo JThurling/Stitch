@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Core.Models;
 using Infrastucture.Data;
+using Newtonsoft.Json;
 
 namespace Stitch.Server
 {
@@ -39,6 +40,10 @@ namespace Stitch.Server
                 .AddIdentityServerJwt();
 
             services.AddControllersWithViews();
+            services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
             services.AddRazorPages();
         }
 

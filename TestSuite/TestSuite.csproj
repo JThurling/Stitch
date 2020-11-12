@@ -26,4 +26,9 @@
       <ProjectReference Include="..\Server\Stitch.Server.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="ControllerTests" />
+      <Folder Include="ServiceTests" />
+    </ItemGroup>
+
 </Project>
